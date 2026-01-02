@@ -1,0 +1,60 @@
+/* The Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* To be preditable */
+    font-family: 'Google Sans', sans-serif;
+}
+
+/* Dark Mode Base */
+body {
+    background-color: rgb(7, 7, 7);
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #494545;
+    color: white;
+    padding: 2rem; /* Inner space */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* slight 3D effect */
+}
+
+/* Main Content */
+main {
+    max-width: 800px;
+    margin: 2rem auto;/* Top/Bottom: 2rem, Left/Right: Auto (Centers it) */
+    padding: 1rem;
+}
+
+/* Cards (Section) */
+section {
+    background-color: lightgray; 
+    margin-bottom: 2rem; /* space between sections */
+    padding: 2rem;       /* space inside card */
+    border-radius: 10px;  /* rounded corners */
+    border-left: 5px soild #007BFF; /* stylish accent line */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    margin-top: 3rem;
+    border-top: 1px solid #444;
+    font-size: 0.9rem;
+    color: #aaa;
+}
+
+/* Links */
+a {
+    color: #00adb5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
