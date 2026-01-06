@@ -137,6 +137,36 @@ button:focus-visible {
     outline-offset: 3px;
 }
 
+/* The container */
+#skills ul {
+    list-style: none; /*Kill the button */
+    padding: 0;
+
+    /* Flexbox */
+    display: flex;
+    flex-wrap: wrap; /* ifscreen small drops item to next */
+    gap: 1rem;
+}
+
+/* The items */
+#skills li {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1.5rem;
+    border-radius: 50px;
+    border: 1px solid #00adb5;
+    font-weight: bold;
+    font-size: 0.9rem;
+    cursor: default;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover effect */
+#skills li:hover {
+    background-color: #00adb5;
+    color: #000;
+}
+
 @media (max-width: 768px) {
     header {
         position: relative;
