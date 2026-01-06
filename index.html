@@ -18,15 +18,29 @@
 <body>
 
     <header>
-        <h1>Aravind A S</h1>
-        <p>Full Stack Developer | AWS</p>
-        <button id="hireBtn">Hire Me</button>
+        <div class="brand">
+           <h1>Aravind A S</h1>
+            <p>Full Stack Developer | AWS</p>
+        </div>
+        
+        <button class="menu-toggle" aria-label="Open Menu"><kbd>&#9776</kbd></button>
+
+        <nav aria-label="Main Navigation">
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+            </ul>            
+
+            <div class="nav-cta">
+                <button id="hireBtn" aria-label="Hire Me Button">Hire Me</button>
+            </div>
+        </nav>       
     </header>
 
     <main>
 
         <section id = "about">
-            <h1>About Me</h1>
+            <h2>About Me</h2>
             <p>
                 Hi! I am a final year Computer Science student at Ramco Institute of Technology, Rajapalayam, Virdhunagar. 
                 I have a strong passion for web development and cloud computing. <br>
