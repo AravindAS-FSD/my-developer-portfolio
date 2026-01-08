@@ -8,9 +8,12 @@
 // });
 
 // Action without alert
-document.getElementById('hireBtn').addEventListener('click', () => {
-    window.location.href = "mailto:asaravind213@gmail.com";
-});
+const hireBtn = document.getElementById('hireBtn');
+if (hireBtn) {
+    hireBtn.addEventListener('click', () => {
+        window.location.href = "mailto:asaravind213@gmail.com";
+    });
+}
 
 // moblie menu toogle
 const menuToggle = document.querySelector('.menu-toggle');
